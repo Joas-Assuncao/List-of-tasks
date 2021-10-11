@@ -1,0 +1,19 @@
+.main {
+    background: #F1F1F1;
+
+    padding: 2rem;
+    margin: 3rem auto;
+
+    max-width: 31.25rem;
+
+    border-radius: .25rem;
+
+    text-align: center;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+.main h1 {
+    font-size: 1.25rem;
+    text-align: center;
+}

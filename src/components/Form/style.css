@@ -1,0 +1,51 @@
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 2rem;
+}
+
+.form .input {
+    height: 2.5rem;
+    min-width: 80%;
+
+    padding: 0 1rem;
+
+    font-size: 1.25rem;
+
+    border: 1px solid #CCC;
+
+    transition: .5s;
+}
+
+.form .input:focus {
+    box-shadow: 0 0 3px #212121;
+}
+
+.form .button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 2.5rem;
+    width: 2.5rem;
+
+    background: #212121;
+    color: #f1f1f1;
+
+    border: none;
+
+    transition: .4s;
+}
+
+.form .image-button {
+    height: 1.4rem;
+    width: 1.4rem;
+}
+
+.form .button:hover {
+    opacity: .9;
+
+    box-shadow: 0 0 3px #212121;
+}
